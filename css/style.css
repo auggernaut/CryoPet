@@ -138,7 +138,7 @@ span {
 .brand-name {
     font-family: 'Ribeye', cursive;
     font-style: normal;
-
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #word {

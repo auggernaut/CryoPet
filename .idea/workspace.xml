@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397e1459-ebac-4ed1-bab6-3f219c24b689" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/guaranteed.png" afterPath="$PROJECT_DIR$/img/guaranteed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GREADY 1.1.iws" />
@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="45" selection-start="6108" selection-end="6108" vertical-scroll-proportion="0.694974" vertical-offset="2615" max-vertical-offset="4199">
+            <state line="216" column="51" selection-start="6633" selection-end="6633" vertical-scroll-proportion="0.0" vertical-offset="2615" max-vertical-offset="4199">
               <folding />
             </state>
           </provider>
@@ -71,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="451" column="24" selection-start="9295" selection-end="9295" vertical-scroll-proportion="-28.92" vertical-offset="6944" max-vertical-offset="19992">
+            <state line="140" column="41" selection-start="3351" selection-end="3351" vertical-scroll-proportion="0.44464126" vertical-offset="1878" max-vertical-offset="19992">
               <folding />
             </state>
           </provider>
@@ -100,9 +100,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/component.css" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -283,7 +283,15 @@
       <created>1385773357679</created>
       <updated>1385773357679</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added mailchimp">
+      <created>1385776586133</created>
+      <updated>1385776586133</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added testimonial images">
+      <created>1385776620634</created>
+      <updated>1385776620634</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -323,7 +331,9 @@
     <MESSAGE value="First published version." />
     <MESSAGE value="added images" />
     <MESSAGE value="added tracking code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tracking code" />
+    <MESSAGE value="added mailchimp" />
+    <MESSAGE value="added testimonial images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added testimonial images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -404,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="451" column="24" selection-start="9295" selection-end="9295" vertical-scroll-proportion="-28.92" vertical-offset="6944" max-vertical-offset="19992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="410" column="31" selection-start="14462" selection-end="14462" vertical-scroll-proportion="-218.46153" vertical-offset="1290" max-vertical-offset="7837">
@@ -428,7 +431,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="45" selection-start="6108" selection-end="6108" vertical-scroll-proportion="0.694974" vertical-offset="2615" max-vertical-offset="4199">
+        <state line="216" column="51" selection-start="6633" selection-end="6633" vertical-scroll-proportion="0.0" vertical-offset="2615" max-vertical-offset="4199">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="41" selection-start="3351" selection-end="3351" vertical-scroll-proportion="0.44464126" vertical-offset="1878" max-vertical-offset="19992">
           <folding />
         </state>
       </provider>
