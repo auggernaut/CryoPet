@@ -148,7 +148,7 @@ $(document).ready(function () { // Document ready
         controlNav: false,
         smoothHeight: true,
         animationLoop: true,
-        slideshowSpeed: 3000,
+        slideshowSpeed: 10000,
         slideToStart: 0
     });
 
@@ -159,7 +159,7 @@ $(document).ready(function () { // Document ready
         smoothHeight: true,
         animationLoop: true,
         sync: "#slider1",
-        slideshowSpeed: 3000,
+        slideshowSpeed: 10000,
         slideToStart: 0
     });
 
@@ -198,7 +198,6 @@ $('#emailBtn').on("click", function () {
     var nexus = "http://serene-escarpment-4675.herokuapp.com/";
 
     var email = {
-        "to": "augman@gmail.com",
         "from": $('#contactEmail').val(),
         "subject": "Contact from cryopet.us",
         "message": $('#message').val()
