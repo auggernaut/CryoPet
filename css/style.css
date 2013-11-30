@@ -96,6 +96,7 @@ h1 {
     font-family: 'Ribeye', cursive;
     margin: 0.75em 0.75em 0.25em;
     font-size: 100px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 h2 {
@@ -138,7 +139,7 @@ span {
 .brand-name {
     font-family: 'Ribeye', cursive;
     font-style: normal;
-    text-shadow: black 0.1em 0.1em 0.2em;
+
 }
 
 #word {

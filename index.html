@@ -59,7 +59,7 @@
             <div class="mobile-menu-inner">
                 <ul class="nav-mobile">
 
-                    <li><a href="#" class="contact">Contact</a></li>
+                    <li><a href="#" class="contact" onClick="_gaq.push(['_trackEvent', 'Contact', 'Link', 'Top']);">Contact</a></li>
 
                 </ul>
             </div>
@@ -115,8 +115,8 @@
             <div id="roundbox" class="fade2">
                 <h2>When life isn't as pet friendly as you are.</h2>
                 <h5>Sometimes life events force us to leave our loved ones behind.
-                    <br/>Options for extended pet care are limited, expensive, and often stressful.
-                    <br/>CryoPet's revolutionary approach to pet care is your solution to temporary pet-unfriendly
+                    <br/>Options for extended pet care are limited, expensive, and stressful.
+                    <br/>CryoPet's revolutionary approach to pet care is your solution to pet-unfriendly
                     circumstances.</h5>
                 <div id="invite">
 
@@ -131,7 +131,9 @@
 
                             <div class="five columns">
                                 <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
-                                       class="button2">
+                                       class="button2" onClick="_gaq.push(['_trackEvent', 'Email', 'Submit', 'Top']);">
+
+
                             </div>
                         </form>
                     </div>
@@ -163,7 +165,7 @@
                     <ul class="three_up tiles centered hi-icon-effect-9 hi-icon-effect-9b">
 
                         <li>
-                            <a href="#safe" class="hi-icon hi-icon-locked">Safe</a>
+                            <a href="#safe" class="hi-icon hi-icon-locked" onClick="_gaq.push(['_trackEvent', 'Benefit', 'Click', 'Safe']);">Safe</a>
 
                             <div class="clear"></div>
                             <h4>Safe</h4>
@@ -173,7 +175,7 @@
                         </li>
 
                         <li>
-                            <a href="#extended" class="hi-icon hi-icon-clock">Extended</a>
+                            <a href="#extended" class="hi-icon hi-icon-clock" onClick="_gaq.push(['_trackEvent', 'Benefit', 'Click', 'Extended']);">Extended</a>
 
                             <div class="clear"></div>
                             <h4>Extended</h4>
@@ -182,7 +184,7 @@
                         </li>
 
                         <li>
-                            <a href="#mobile" class="hi-icon hi-icon-mobile">Mobile</a>
+                            <a href="#mobile" class="hi-icon hi-icon-mobile" onClick="_gaq.push(['_trackEvent', 'Benefit', 'Click', 'Mobile']);">Mobile</a>
 
                             <div class="clear"></div>
                             <h4>Mobile</h4>
@@ -211,7 +213,7 @@
 
                 <h3>100% safety guarantee.</h3>
 
-                <p>After 10 years of development, CryoPet's NASA developed cryogenic technology has been tested and
+                <p>After 10 years of development, CryoPet's NASA-grade cryogenic technology has been tested and
                     approved by the Animal and Plant Health Inspection Service (APHIS) to be 100% safe and reliable.
                     This is the first ever pet care option that guarantees the safety and welfare of your furry friend.
                      </p>
@@ -384,7 +386,7 @@
 
                     <div class="five columns">
                         <input type="submit" value="Notify Me" name="subscribe" id="mc-embedded-subscribe2"
-                               class="button2">
+                               class="button2" onClick="_gaq.push(['_trackEvent', 'Email', 'Submit', 'Bottom']);">
                     </div>
                 </form>
             </div>
@@ -417,7 +419,7 @@
         <div class="five columns text-right social">
             <ul id="navfirst">
                 <li>
-                    <a href="#" class="contact">Contact</a>
+                    <a href="#" class="contact" onClick="_gaq.push(['_trackEvent', 'Contact', 'Link', 'Bottom']);">Contact</a>
                 </li>
             </ul>
         </div>
@@ -432,7 +434,7 @@
         <input class="contactEmail" type="text" placeholder="EMAIL ADDRESS" id="contactEmail">
         <textarea id="message" name="message" rows="3" class="input-block-level"
                   placeholder="MESSAGE" required></textarea>
-        <button id="emailBtn" class="button2">Send</button>
+        <button id="emailBtn" class="button2" onClick="_gaq.push(['_trackEvent', 'Contact', 'Submit', 'Overlay']);">Send</button>
         <h4 id="response" style="display: none; text-align:center"></h4>
     </div>
 
