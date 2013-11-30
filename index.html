@@ -45,6 +45,18 @@
                 .js("js/jquery.flexslider.js")
     </script>
 
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-9628849-5', 'cryopet.us');
+        ga('send', 'pageview');
+
+    </script>
+
 </head>
 
 
@@ -59,7 +71,7 @@
             <div class="mobile-menu-inner">
                 <ul class="nav-mobile">
 
-                    <li><a href="#" class="contact" onClick="_gaq.push(['_trackEvent', 'Contact', 'Link', 'Top']);">Contact</a></li>
+                    <li><a href="#" class="contact" onClick="ga('send', { 'hitType': 'event','eventCategory': 'link','eventAction': 'click','eventLabel': 'top contact','eventValue': 1});">Contact</a></li>
 
                 </ul>
             </div>
@@ -76,7 +88,7 @@
         </div>
 
         <ul id="nav">
-            <li><a href="#" class="contact">Contact</a></li>
+            <li><a href="#" class="contact" onClick="ga('send', { 'hitType': 'event','eventCategory': 'link','eventAction': 'click','eventLabel': 'top contact','eventValue': 1});">Contact</a></li>
         </ul>
     </nav>
 </div>
@@ -131,7 +143,7 @@
 
                             <div class="five columns">
                                 <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
-                                       class="button2" onClick="_gaq.push(['_trackEvent', 'Email', 'Submit', 'Top']);">
+                                       class="button2" onClick="ga('send', { 'hitType': 'event','eventCategory': 'button','eventAction': 'click','eventLabel': 'top email','eventValue': 1});">
 
 
                             </div>
@@ -165,7 +177,7 @@
                     <ul class="three_up tiles centered hi-icon-effect-9 hi-icon-effect-9b">
 
                         <li>
-                            <a href="#safe" class="hi-icon hi-icon-locked" onClick="_gaq.push(['_trackEvent', 'Benefit', 'Click', 'Safe']);">Safe</a>
+                            <a href="#safe" class="hi-icon hi-icon-locked" onClick="ga('send', { 'hitType': 'event','eventCategory': 'link','eventAction': 'click','eventLabel': 'safe benefit','eventValue': 1});">Safe</a>
 
                             <div class="clear"></div>
                             <h4>Safe</h4>
@@ -175,7 +187,7 @@
                         </li>
 
                         <li>
-                            <a href="#extended" class="hi-icon hi-icon-clock" onClick="_gaq.push(['_trackEvent', 'Benefit', 'Click', 'Extended']);">Extended</a>
+                            <a href="#extended" class="hi-icon hi-icon-clock" onClick="ga('send', { 'hitType': 'event','eventCategory': 'link','eventAction': 'click','eventLabel': 'extended benefit','eventValue': 1});">Extended</a>
 
                             <div class="clear"></div>
                             <h4>Extended</h4>
@@ -184,7 +196,7 @@
                         </li>
 
                         <li>
-                            <a href="#mobile" class="hi-icon hi-icon-mobile" onClick="_gaq.push(['_trackEvent', 'Benefit', 'Click', 'Mobile']);">Mobile</a>
+                            <a href="#mobile" class="hi-icon hi-icon-mobile" onClick="ga('send', { 'hitType': 'event','eventCategory': 'link','eventAction': 'click','eventLabel': 'mobile benefit','eventValue': 1});">Mobile</a>
 
                             <div class="clear"></div>
                             <h4>Mobile</h4>
@@ -386,7 +398,7 @@
 
                     <div class="five columns">
                         <input type="submit" value="Notify Me" name="subscribe" id="mc-embedded-subscribe2"
-                               class="button2" onClick="_gaq.push(['_trackEvent', 'Email', 'Submit', 'Bottom']);">
+                               class="button2" onClick="ga('send', { 'hitType': 'event','eventCategory': 'link','eventAction': 'click','eventLabel': 'bottom email','eventValue': 1});">
                     </div>
                 </form>
             </div>
@@ -419,7 +431,7 @@
         <div class="five columns text-right social">
             <ul id="navfirst">
                 <li>
-                    <a href="#" class="contact" onClick="_gaq.push(['_trackEvent', 'Contact', 'Link', 'Bottom']);">Contact</a>
+                    <a href="#" class="contact" onClick="ga('send', { 'hitType': 'event','eventCategory': 'link','eventAction': 'click','eventLabel': 'bottom contact','eventValue': 1});">Contact</a>
                 </li>
             </ul>
         </div>
@@ -434,23 +446,13 @@
         <input class="contactEmail" type="text" placeholder="EMAIL ADDRESS" id="contactEmail">
         <textarea id="message" name="message" rows="3" class="input-block-level"
                   placeholder="MESSAGE" required></textarea>
-        <button id="emailBtn" class="button2" onClick="_gaq.push(['_trackEvent', 'Contact', 'Submit', 'Overlay']);">Send</button>
+        <button id="emailBtn" class="button2" onClick="ga('send', { 'hitType': 'event','eventCategory': 'button','eventAction': 'click','eventLabel': 'contact submit','eventValue': 1});">Send</button>
         <h4 id="response" style="display: none; text-align:center"></h4>
     </div>
 
 </section>
 
 
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-9628849-5', 'cryopet.us');
-    ga('send', 'pageview');
-
-</script>
 
 </body>
 
