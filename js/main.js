@@ -235,8 +235,23 @@ $(document).ready(function () {
 
     });*/
 
-    $('#header').css('background-image', 'url(/img/dude-dog.jpg)');
+    //alert(window.location.search.substring(1).indexOf("234"));
+    //$('#header').css('background-image', 'url(/img/dude-dog.jpg)');
 
-    //$('#header').css('background-image', 'url(/img/dog-cat.jpg)');
+    var query = window.location.search.substring(1);
+
+    if(query.indexOf("fbtest1") !== -1){
+        $('#header').css('background-image', 'url(/img/dude-dog.jpg)');
+    }
+    else if(query.indexOf("aw1") !== -1){
+        $('#header').css('background-image', 'url(/img/dude-dog.jpg)');
+    }
+    else if(query.indexOf("aw2") !== -1){
+        $('#header').css('background-image', 'url(/img/dog-cat.jpg)');
+    }
+    else {
+        $('#header').css('background-image', 'url(/img/dude-dog.jpg)');
+    }
+
 
 });
