@@ -198,9 +198,9 @@ $('#emailBtn').on("click", function () {
     var nexus = "http://serene-escarpment-4675.herokuapp.com/";
 
     var email = {
-        "to": "augustin@datacosmos.com",
+        "to": "augman@gmail.com",
         "from": $('#contactEmail').val(),
-        "subject": "Contact from gratzi.me",
+        "subject": "Contact from cryopet.us",
         "message": $('#message').val()
     };
 
@@ -223,8 +223,8 @@ $('#emailBtn').on("click", function () {
 
 $(document).ready(function () {
 
-/*    var segments = [
-        { word: "birthday", image: "birthday1.jpg" }
+ /*   var segments = [
+        { word: "dude", image: "dude-dog.jpg" }
     ];
 
     _.each(segments, function (segment, i) {
@@ -235,5 +235,9 @@ $(document).ready(function () {
         }, i * 4000);
 
     });*/
+
+    $('#header').css('background-image', 'url(/img/dude-dog.jpg)');
+
+    $('#header').css('background-image', 'url(/img/dog-cat.jpg)');
 
 });
