@@ -237,6 +237,6 @@ $(document).ready(function () {
 
     $('#header').css('background-image', 'url(/img/dude-dog.jpg)');
 
-    $('#header').css('background-image', 'url(/img/dog-cat.jpg)');
+    //$('#header').css('background-image', 'url(/img/dog-cat.jpg)');
 
 });

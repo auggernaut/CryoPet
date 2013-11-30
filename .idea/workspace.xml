@@ -302,7 +302,11 @@
       <created>1385841201394</created>
       <updated>1385841201394</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changed background image">
+      <created>1385845334031</created>
+      <updated>1385845334031</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -347,7 +351,8 @@
     <MESSAGE value="text shadow and smaller guaranteed image" />
     <MESSAGE value="added ga event tracking on buttons, style tweaks" />
     <MESSAGE value="fixed tracking code, i think" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed tracking code, i think" />
+    <MESSAGE value="changed background image" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed background image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
