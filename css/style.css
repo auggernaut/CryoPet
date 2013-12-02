@@ -148,6 +148,10 @@ span {
     transition: all 1.0s linear;
 }
 
+.fb-like {
+    padding-right: 10px;
+}
+
 input {
     font-family: 'latolight', sans-serif;
     -moz-transition: all .3s ease-in-out;
